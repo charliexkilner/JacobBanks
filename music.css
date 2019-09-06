@@ -1,0 +1,88 @@
+body{
+  background-color: #242423;
+}
+span:before{
+    content: 'Builder';
+    animation: animate infinite 4s;
+}
+@keyframes animate{
+    0%{
+        content: 'Musician';
+    }
+    20%{
+        content: 'Singer';
+    }
+    40%{
+        content: 'Song Writer';
+    }
+    60%{
+        content: 'Inspiration';
+    }
+    80%{
+        content: 'Creative';
+    }
+    100%{
+        content: 'Visionary';
+    }
+}
+header{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: #DCED31;
+}
+.tour-header{
+    font-size: 35px;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: white;
+}
+p{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: white;
+  text-align: left;
+}
+mark{
+  background-color: #DCED31;
+}
+.soldout{
+    background-color: white;
+}
+a{
+  font-size: 25px;
+  color: #DCED31;
+  text-decoration: none;
+  padding-left:20px;
+  letter-spacing: 5px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.described{
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.datediv{
+    text-align: center;
+}
+.date-soldout{
+    text-decoration: line-through;
+}
+.date-soldout:hover{
+    text-decoration: line-through;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.spotify{
+    text-align: center;
+}
+.abc{
+    color: white;
+    text-align:center;
+}
