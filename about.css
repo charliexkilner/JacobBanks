@@ -144,3 +144,7 @@ body{
   letter-spacing: 2px;
   text-align: left;
 }
+.more{
+    font-size: 15px;
+    padding-top: 30%;
+}
