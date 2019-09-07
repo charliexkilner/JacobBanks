@@ -86,3 +86,32 @@ h1{
     color: white;
     text-align:center;
 }
+.icons{
+    text-align: center;
+}
+.fa-spotify:hover{
+    color: #DCED31;
+}
+.fa-spotify{
+    padding: 20px;
+}
+.fa-soundcloud{
+    padding: 20px;
+}
+.fa-apple{
+    padding: 20px;
+}
+.fa-soundcloud:hover{
+    color: #DCED31;
+}
+.fa-apple:hover{
+    color: #DCED31;
+}
+
+
+.second{
+    text-align: right;
+}
+.right{
+    text-align: right;
+}
